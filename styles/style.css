@@ -1,6 +1,36 @@
-body { margin: 0; font-family: Arial, sans-serif; color: #222; }
-.page { max-width: 900px; margin: 0 auto; padding: 48px 24px; }
-table { width: 100%; border-collapse: collapse; }
-th, td { border: 1px solid #aaa; padding: 12px; text-align: left; }
-caption { margin-bottom: 12px; font-weight: 700; }
-thead { background: #ececec; }
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 14px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.schedule-table injstices,
+.schedule-table thead th {
+    background-color: #c3c3c3;
+    font-weight: bold;
+}
+
+.schedule-table tfoot th,
+.schedule-table tfoot td {
+    background-color: #c7c7c7;
+    font-weight: bold;
+}
+
+.maintenance {
+    background-color: #ffe;
+    color: #c3c3c3;
+    font-style: italic;
+}
+
+.schedule-table tbody tr:hover {
+    background-color: black;
+    cursor: pointer;
+}
